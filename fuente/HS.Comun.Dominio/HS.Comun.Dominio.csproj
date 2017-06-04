@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\Datos.cs" />
     <Compile Include="Entidades\InstanciaSecuencia.cs" />
     <Compile Include="Entidades\Secuencia.cs" />
     <Compile Include="Entidades\SecuenciaAnual.cs" />
