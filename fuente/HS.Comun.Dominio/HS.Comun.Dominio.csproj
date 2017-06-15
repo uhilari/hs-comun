@@ -40,13 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\Almacen.cs" />
+    <Compile Include="Entidades\Articulo.cs" />
     <Compile Include="Entidades\Datos.cs" />
+    <Compile Include="Entidades\Documento.cs" />
     <Compile Include="Entidades\InstanciaSecuencia.cs" />
+    <Compile Include="Entidades\Moneda.cs" />
+    <Compile Include="Entidades\Monto.cs" />
     <Compile Include="Entidades\Secuencia.cs" />
     <Compile Include="Entidades\SecuenciaAnual.cs" />
     <Compile Include="Entidades\SecuenciaDiaria.cs" />
     <Compile Include="Entidades\SecuenciaMensual.cs" />
     <Compile Include="Entidades\SecuenciaUnica.cs" />
+    <Compile Include="Entidades\TipoDocumento.cs" />
+    <Compile Include="Entidades\UnidadMedida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\GestorSecuencias.cs" />
   </ItemGroup>
